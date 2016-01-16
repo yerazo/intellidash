@@ -1,1 +1,46 @@
-/* Scratch, you say? */
+html, body{
+	height: 100%;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.primary-text{
+	color:#323232;
+}
+.primary-background{
+	background-color: #f8f8f8;
+}
+.secondary-text{
+	color:white;
+}
+.green{
+	background-color: #519872;
+	height: 80px;
+}
+
+/*HEADER*/
+header{
+	height: 80px;
+	line-height: 80px;
+}
+header .logo{
+	float: left;
+}
+header .text{
+  float:left;
+  font-size:28px;
+}
+header nav{
+	float: right;
+}
+.header{
+	padding: 15px 25px;
+	border-bottom: 1px solid #dcdcdc;
+}
+/*MAIN*/
+.nav-bar{
+	height:100%;
+}
+.nav-pills .li a{
+	background-color: #f8f8f8;
+}
