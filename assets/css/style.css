@@ -53,3 +53,14 @@ header nav{
 a{
 	color:#323232;
 }
+.content{
+	margin: 10px;
+}
+.module{
+	background-color: #519872;
+	height: 125px;
+	margin:10px;
+}
+.hidden-xs, .hidden-sm{
+	display: none;
+}
