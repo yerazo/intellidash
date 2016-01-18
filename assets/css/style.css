@@ -40,8 +40,14 @@ header nav{
 	float: right;
 }
 /*MAIN*/
+.sidebar{
+	border-right: 1px solid #dcdcdc;
+}
 .nav{
 	height:100%;
+}
+.nav-item{
+	border-bottom: 1px solid #dcdcdc;
 }
 .nav-pills .li a{
 	background-color: #f8f8f8;
