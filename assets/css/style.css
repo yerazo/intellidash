@@ -38,10 +38,19 @@ header .text{
 }
 header nav{
 	float: right;
+	vertical-align: center;
 }
 /*MAIN*/
 .sidebar{
 	border-right: 1px solid #dcdcdc;
+}
+form{
+	padding:15px 0;
+	border-bottom: 1px solid #dcdcdc;
+}
+form .btn-default{
+	background-color: #f8f8f8;
+	border-radius:2px;
 }
 .nav{
 	height:100%;
@@ -70,3 +79,10 @@ a{
 .hidden-xs, .hidden-sm{
 	display: none;
 }
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+		.xs-border-right{
+			border-right: none;
+		}
+	}
