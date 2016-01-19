@@ -40,6 +40,9 @@ header nav{
 	float: right;
 	vertical-align: center;
 }
+header nav .btn{
+	margin-top: 20px;
+}
 /*MAIN*/
 .sidebar{
 	border-right: 1px solid #dcdcdc;
@@ -75,9 +78,6 @@ a{
 	background-color: #519872;
 	height: 125px;
 	margin:10px;
-}
-.hidden-xs, .hidden-sm{
-	display: none;
 }
 
 /*MEDIA QUERIES*/
