@@ -88,4 +88,7 @@ a{
 		.nav{
 			height: 100%;
 		}
+		.form-control{
+			width:90%;
+		}
 	}
